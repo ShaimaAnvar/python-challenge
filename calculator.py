@@ -27,7 +27,7 @@ equation = StringVar()
 entry = Entry(window, bg='white',width=100 ,textvariable=equation)
 entry.grid(row=0, column=0,ipadx=15, ipady=15, columnspan=75)
 
-button1 = Button(window, text=' 1 ',size=30, bg='#999966',command=lambda: press(1), height=3, width=8)
+button1 = Button(window, text=' 1 ', bg='#999966',command=lambda: press(1), height=3, width=8)
 button1.grid(row=2, column=0,padx=5, pady=5)
 #button1['font'] = myFont
 #button1.pack()
